@@ -5,7 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity tt_um_line_follower is
   Port (  clk : IN STD_LOGIC;
           ena : IN std_logic;
-          rst : IN std_logic;
+          rst_n : IN std_logic;
           ui_in: IN std_logic_vector(7 downto 0); -- ui_in Entradas Fijas
           uio_in: IN std_logic_vector(7 downto 0); -- Entradas Bidireccionales, ajuste va de en posiciones 0 a 3
           uo_out : OUT std_logic_vector(7 downto 0); -- uo_out Salidas Fijas
