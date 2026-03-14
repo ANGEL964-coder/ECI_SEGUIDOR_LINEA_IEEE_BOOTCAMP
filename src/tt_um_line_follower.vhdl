@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-entity pesos is
+entity tt_um_line_follower is
   Port (  clk : IN STD_LOGIC;
           ena : IN std_logic;
           rst : IN std_logic;
@@ -13,12 +13,12 @@ entity pesos is
           uio_oe : OUT std_logic_vector (7 downto 0) -- Selector de pines bidireccionales
 
           );
-end pesos;
+end tt_um_line_follower;
 
 
 
 
-architecture Behavioral of pesos is
+architecture Behavioral of tt_um_line_follower is
 
 component pwm is            
     Port (clk : IN STD_LOGIC;
