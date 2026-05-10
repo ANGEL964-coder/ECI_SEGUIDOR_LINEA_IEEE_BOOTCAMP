@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Line Follower Motor Controller"      # Project title
+  title:        "LINE"      # Project title
   author:       "Angel Fabian Pedreros Almeida"      # Your name
   discord:      "ibanez0739"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Basic controller for a line follower of 8 sensors"      # One line description of what your project does
@@ -17,8 +17,6 @@ project:
   # Source files must be in ./src and you must list each source file separately, one per line.
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
-    - "tt_um_line_follower.vhdl" # Top Module
-    - "pwm.vhdl"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
